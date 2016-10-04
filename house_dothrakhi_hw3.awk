@@ -1,21 +1,25 @@
-#!/bin/bash - 
 #===============================================================================
 #
-#          FILE: awk.sh
+#          FILE: house_dothrakhi_hw3.awk
 # 
-#         USAGE: ./awk.sh 
+#         USAGE: 
 # 
 #   DESCRIPTION: 
 # 
-#        AUTHOR: Matthew Smith (), matthewsmith4@mail.weber.edu
+#        AUTHOR: Matthew Smith
 #  ORGANIZATION: 
-#       CREATED: 09/29/2016 12:48
+#       CREATED:
 #      REVISION:  ---
 #===============================================================================
 
 #set -o nounset                              # Treat unset variables as an error
 
 awk 'BEGIN { FS=","; }
-	{ print $4 }' presidents.csv
+{ 
+	year = strtonum(substr($4,length($4)-3,4));
+	if ( year >= 1900)
+		print $2", from "$4" to "$5;
+}' presidents.csv
 
 exit 0
+
