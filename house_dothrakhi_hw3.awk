@@ -21,5 +21,3 @@ BEGIN { FS=","; }
 		print $2", from "$4" to "$5;
 }
 
-exit 0
-
