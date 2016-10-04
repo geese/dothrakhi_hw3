@@ -15,18 +15,24 @@
 
 #set -o nounset                              # Treat unset variables as an error
 
+
+#function to call when user needs some guidance
 displayHelp()
 {
 echo "usage ./house_dothrakhi_hw3.sh -s sedsrc -a awksrc -i inputFile"
 }
 
 
+
+#if the user typed --help as first parameter, display the usage message
 if [[ $1 = --help ]]
 then
 	displayHelp
 	exit 1
 fi
 
+
+#if the number of options plus arguments does not equal six, something's wrong
 if [[ $# -lt 6 ]]
 then
 	echo "More arguments are needed"
@@ -40,10 +46,13 @@ then
 fi
 
 
+
+
+#options are -s, -a, and -i.  Colons mean an argument should follow the option.  (s:)
 while getopts ":s:a:i:" opt
 do
 	case $opt in
-		\?)echo "Invalid option: -$OPTARG"
+		\?)echo "Invalid option: -$OPTARG"  #\? means an option was entered, wrong letter
 			displayHelp
 			exit 1;;
 		s)sedsrc=$OPTARG;;
@@ -52,6 +61,8 @@ do
 	esac
 done
 
+
+#check that the argument to -i is a file that exists
 if [[ -e $dataInputFile ]]
 then
 sed -f $sedsrc $dataInputFile | awk -f $awksrc > 20CenturyPresidents.txt
