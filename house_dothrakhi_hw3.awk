@@ -15,4 +15,7 @@
 
 #set -o nounset                              # Treat unset variables as an error
 
+awk 'BEGIN { FS=","; }
+	{ print $4 }' presidents.csv
 
+exit 0
