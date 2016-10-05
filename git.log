@@ -1,0 +1,116 @@
+commit 0ed20b16cba3afd31fe67ae01dc26dda50de1694
+Author: Matthew Smith <matthewsmith4@mail.weber.edu>
+Date:   Tue Oct 4 13:13:56 2016 -0600
+
+    changes made to .awkv2
+
+commit df631deb7d544de41d5c5cfd0a1b790125efad71
+Author: Matthew Smith <matthewsmith4@mail.weber.edu>
+Date:   Tue Oct 4 13:12:20 2016 -0600
+
+    changes made to .awk
+
+commit b44387cd3532795e1104908ebf016c0011e986db
+Merge: cb7fd0a 6c9cc1a
+Author: Matthew Smith <matthewsmith4@mail.weber.edu>
+Date:   Tue Oct 4 13:05:00 2016 -0600
+
+    Merge branch 'master' of http://github.com/geese/dothrakhi_hw3
+
+commit cb7fd0a505d917adb0e58cff260d50f96702e635
+Author: Matthew Smith <matthewsmith4@mail.weber.edu>
+Date:   Mon Oct 3 22:47:18 2016 -0600
+
+    having it sort by dates
+
+commit 6c9cc1a4ea46ca4e6a85457c94b241451c927ed0
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Oct 3 20:45:25 2016 -0600
+
+    added comments
+
+commit 2fb34bd308ef98cd3e6e0243a77f0b8c04844e3d
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Oct 3 15:07:36 2016 -0600
+
+    fixed git conflict residue
+
+commit 4a4cfd46b65ce435bf1c7a33989efca8f9a43c5c
+Merge: fadb9dc cb4b73b
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Oct 3 14:38:08 2016 -0600
+
+    Merge branch 'master' of https://github.com/geese/dothrakhi_hw3
+
+commit fadb9dc73ceb64624891f7382c67b26f6e2338a8
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Oct 3 14:37:50 2016 -0600
+
+    plan B sed file
+
+commit cb4b73bc93b880726a37d96e514eb0d158e1a5fe
+Author: Geese <geese@users.noreply.github.com>
+Date:   Mon Oct 3 14:36:30 2016 -0600
+
+    deleting sed file before it causes conflicts
+
+commit b03080fa9ac039ba49e79414c841587a52c57d7e
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Oct 3 14:30:55 2016 -0600
+
+    plan B awk
+
+commit b8f62752eefea01d142ebcdf464e57cc481005bc
+Merge: 514d4b4 9634863
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Oct 3 14:27:47 2016 -0600
+
+    Bumping around in Git trying to merge/push, etc.
+
+commit 514d4b435939adb4d721d7643201dc33693d6dfe
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Oct 3 14:20:12 2016 -0600
+
+    plan B sed and awk files
+
+commit bddaaaeb380f483be81ac1703f7fa306527473b4
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Oct 3 14:17:56 2016 -0600
+
+    bash script, still needs comments
+
+commit 9634863052c3959e3f2d4d2c516bf618b1b80a7d
+Author: Matthew Smith <matthewsmith4@mail.weber.edu>
+Date:   Thu Sep 29 12:56:43 2016 -0600
+
+    name change for proper format
+
+commit 202797170727df3dac464e9ff4b9b1c5923d209b
+Author: Matthew Smith <matthewsmith4@mail.weber.edu>
+Date:   Thu Sep 29 12:50:50 2016 -0600
+
+    awk script displays presidents after 1900
+
+commit a44f01454192d2b3c3bf94e4a2f2916d9df08a40
+Author: Matthew Smith <matthewsmith4@mail.weber.edu>
+Date:   Thu Sep 29 12:42:09 2016 -0600
+
+    test copy
+
+commit 70d580c43f73e1014e2edab54d3407c85ed20e6d
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Thu Sep 29 12:36:28 2016 -0600
+
+    adding a copy of the original file to work with
+
+commit e9af04aa994b8fd54b9d6ed7b56e3a8327b09fe7
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Thu Sep 29 12:29:28 2016 -0600
+
+    adding file presidents.csv
+
+commit 7ec67e9fd1043c1ea04a81602da98a12579f77cc
+Author: Geese <geese@users.noreply.github.com>
+Date:   Thu Sep 29 12:13:06 2016 -0600
+
+    Initial commit
